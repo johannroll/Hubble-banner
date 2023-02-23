@@ -1,0 +1,70 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/mybackgroundw_480.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    width: 0 auto;
+    padding: 1rem; 
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000;
+    word-spacing: 1.5rem;  
+}
+
+p {
+    background: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    padding: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background: url(../images/mybackgroundw_853.jpg) no-repeat;
+        background-size: cover;
+    }
+    
+    p {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        background: url(../images/mybackgroundw_1237.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .hero {
+        background: url(../images/mybackgroundw_1440.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 9rem;
+    }
+}
