@@ -48,7 +48,7 @@ p {
 
 @media screen and (min-width: 1024px) {
     .hero {
-        background-image: url("https://johannroll.github.io/mybackgroundw_1237.jpg") no-repeat;
+        background-image: url("../images/mybackgroundw_1237.jpg") no-repeat;
         background-size: cover;
     }
 
@@ -60,7 +60,7 @@ p {
 
 @media screen and (min-width: 1440px) {
     .hero {
-        background-image: url(../images/mybackgroundw_1440.jpg) no-repeat;
+        background-image: url("../images/mybackgroundw_1440.jpg") no-repeat;
         background-size: cover;
     }
 
